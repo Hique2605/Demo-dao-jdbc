@@ -2,7 +2,7 @@ package application;
 
 import java.util.Date;
 
-import model.entities.Departament;
+import model.entities.Department;
 import model.entities.Seller;
 
 public class Program {
@@ -11,7 +11,7 @@ public class Program {
 		// TODO Auto-generated method stub
 
 		
-		Departament obj = new Departament(1, "Books");
+		Department obj = new Department(1, "Books");
 		
 		Seller seller = new Seller(21, "Bob", "hique@gmail.com", new Date(), 3000.0, obj);
 		
