@@ -7,7 +7,7 @@ public class DaoFactory {
 
 	//opercaoes staticas para estanciar os daos
 	
-	public static SellerDao creatSellerDao() {
+	public static SellerDao createSellerDao() {
 		return new SellerDaoJDBC(DB.getConnection());
 	}
 	
